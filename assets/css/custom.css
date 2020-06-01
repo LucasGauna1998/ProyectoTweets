@@ -9,6 +9,21 @@ h1, h2 {
 .borrar-tweet:hover {
     float: right;
     cursor: pointer;
-    color: red;
+    color: white;
     font-weight: bold;
+    background-color: #B40404;
+    border-radius: 50%;
+    width: 1.2em;
+    text-align: center;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
